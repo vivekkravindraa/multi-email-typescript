@@ -153,7 +153,6 @@ export default Basic;
 ##### Vivek Ravindra :neckbeard: :bowtie: :octocat:
 
 ![DCT Academy](src/images/dct.jpg)
-
 ![KLoc Technologies Pvt. Ltd.](src/images/kloc.png)
 
 :copyright: :registered: :tm:
