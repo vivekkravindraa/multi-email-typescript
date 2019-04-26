@@ -137,4 +137,4 @@ export default Basic;
 
 :copyright: :registered: :tm:
 
-:neckbeard: @vivekkravindraa
+:neckbeard: Vivek Ravindra
