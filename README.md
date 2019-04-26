@@ -26,13 +26,17 @@ npm install --save typescript @types/node @types/react @types/react-dom @types/j
 
 Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.tsx) and restart your development server!
 
-## react-app-env.d.ts 
+## react-app-env.d.ts
+
+src/react-app-env.d.ts
 
 ```typescript
 /// <reference types="react-scripts" />
 ```
 
 ## tsconfig.json
+
+/tsconfig.json
 
 ```javascript
 {
@@ -64,7 +68,7 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 
 ## Implementation
 
-App.js :
+src/App.js :
 
 ```javascript
 import React from 'react';
