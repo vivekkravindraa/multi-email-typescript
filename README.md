@@ -132,6 +132,6 @@ src/components/Basic.tsx :
 
 # Reference
 
-	(https://facebook.github.io/create-react-app/docs/adding-typescript)
+	[How to add typescript in react applications?](https://facebook.github.io/create-react-app/docs/adding-typescript)
 
-	(https://www.npmjs.com/package/react-multi-email)
+	[React component that provides the multi email input field:](https://www.npmjs.com/package/react-multi-email)
