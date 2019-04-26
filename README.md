@@ -150,4 +150,4 @@ export default Basic;
 
 [Alternative way to deal with typescript in react applications!](https://www.npmjs.com/package/react-scripts-ts)
 
-Vivek Ravindra :neckbeard: :bowtie: :octocat: :copyright: :registered: :tm:
+###### Vivek Ravindra :neckbeard: :bowtie: :octocat: :copyright: :registered: :tm:
