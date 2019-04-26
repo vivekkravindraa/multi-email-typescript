@@ -84,13 +84,10 @@ import { ReactMultiEmail, isEmail } from 'react-multi-email';
 import 'react-multi-email/style.css';
 
 interface IProps { }
-interface IState {
-	emails: string[];
-}
+interface IState { emails: string[] }
+
 class Basic extends React.Component<IProps, IState> {
-	state = {
-		emails: []
-	};
+	state = { emails: [] };
 
 	render() {
 		const { emails } = this.state;
@@ -140,4 +137,5 @@ export default Basic;
 [Explore the react component that provides us the multi email input field!](https://www.npmjs.com/package/react-multi-email)
 
 Vivek Ravindra 
+
 :neckbeard: :bowtie: :octocat: :copyright: :registered: :tm:
