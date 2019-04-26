@@ -2,7 +2,7 @@
 
 React Multi Email Input Field - TypeScript Enabled
 
-![React Multi Email]()
+![React Multi Email](src/images/react-multi-email.png)
 
 ## Packages Required :white_check_mark:
 
