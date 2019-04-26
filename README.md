@@ -1,22 +1,28 @@
 # React Multi Email :e-mail:
 
-	React Multi Email Input Field - TypeScript Enabled
+React Multi Email Input Field - TypeScript Enabled
 
 # Packages Required :white_check_mark:
 
 :one: react-multi-email: A simple react component to format multiple email as the user types.
 
-	npm install react-multi-email -S
+```javascript
+npm install react-multi-email -S
+```
 	
 # Create React App With TypeScript :snowflake:
 
 To start a new Create React App project with TypeScript, you can run:
 
-	npx create-react-app your-app-name --typescript
+```javascript
+npx create-react-app your-app-name --typescript
+```
 
 To add TypeScript to a Create React App project, first install it:
 
-	npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```javascript
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+```
 
 Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.tsx) and restart your development server!
 
@@ -136,6 +142,4 @@ export default Basic;
 
 [Explore the react component that provides us the multi email input field!](https://www.npmjs.com/package/react-multi-email)
 
-Vivek Ravindra 
-
-:neckbeard: :bowtie: :octocat: :copyright: :registered: :tm:
+Vivek Ravindra :neckbeard: :bowtie: :octocat: :copyright: :registered: :tm:
