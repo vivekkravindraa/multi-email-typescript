@@ -137,3 +137,7 @@ export default Basic;
 [Explore the react component that provides us the multi email input field!](https://www.npmjs.com/package/react-multi-email)
 
 :copyright: :registered: :tm:
+
+# Author :book:
+
+@vivekkravindraa
