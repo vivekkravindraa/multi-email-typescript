@@ -1,4 +1,4 @@
-# React Multi Email :construction_worker:
+# React Multi Email :e-mail:
 
 	React Multi Email Input Field - TypeScript Enabled
 
