@@ -156,4 +156,3 @@ export default Basic;
 ![KLoc Technologies Pvt. Ltd.](src/images/kloc.png)
 
 :copyright: :registered: :tm:
-
