@@ -16,9 +16,9 @@ class Basic extends React.Component<IProps, IState> {
 
 		return (
 			<>
-				<h3>Email(s)</h3>
+				<h3>react-multi-email</h3>
 				<ReactMultiEmail
-					placeholder=""
+					placeholder="Input your Email Address"
 					emails={emails}
 					onChange={(_emails: string[]) => {
 						this.setState({ emails: _emails });

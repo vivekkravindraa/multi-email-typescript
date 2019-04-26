@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
     return (
-        <div className="App">
+        <div className="container" style={{paddingTop: 100}}>
             <Basic />
         </div>
     )
