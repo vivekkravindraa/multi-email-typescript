@@ -134,4 +134,4 @@ export default Basic;
 
 [How to add typescript in react applications?](https://facebook.github.io/create-react-app/docs/adding-typescript)
 
-[React component that provides the multi email input field](https://www.npmjs.com/package/react-multi-email)
+[Explore the react component that provides us the multi email input field!](https://www.npmjs.com/package/react-multi-email)
