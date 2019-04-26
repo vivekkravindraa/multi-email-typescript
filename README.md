@@ -2,7 +2,7 @@
 
 React Multi Email Input Field - TypeScript Enabled
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![React Multi Email]()
 
 ## Packages Required :white_check_mark:
 
