@@ -22,7 +22,7 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 
 # react-app-env.d.ts
 
-```javascript
+```typescript
 /// <reference types="react-scripts" />
 ```
 
