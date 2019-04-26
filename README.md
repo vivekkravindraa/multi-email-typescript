@@ -20,7 +20,7 @@ To add TypeScript to a Create React App project, first install it:
 
 Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.tsx) and restart your development server!
 
-# react-app-env.d.ts
+# react-app-env.d.ts 
 
 ```typescript
 /// <reference types="react-scripts" />
@@ -141,4 +141,4 @@ export default Basic;
 
 :copyright: :registered: :tm:
 
-Vivek Ravindra :neckbeard: :bowtie:
+Vivek Ravindra :neckbeard: :bowtie: :octocat:
