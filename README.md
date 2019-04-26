@@ -6,15 +6,15 @@
 
 react-multi-email: A simple react component to format multiple email as the user types.
 
-### npm install react-multi-email -S
+	###### npm install react-multi-email -S
 
 To start a new Create React App project with TypeScript, you can run:
 
-### npx create-react-app your-app-name --typescript
+	###### npx create-react-app your-app-name --typescript
 
 To add TypeScript to a Create React App project, first install it:
 
-### npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+	###### npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
 Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.tsx) and restart your development server!
 
