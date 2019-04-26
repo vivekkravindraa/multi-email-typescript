@@ -1,3 +1,5 @@
+/play secret /play tada /play greatjob /play guarantee /play flawless
+
 # React Multi Email :e-mail:
 
 	React Multi Email Input Field - TypeScript Enabled
