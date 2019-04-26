@@ -34,7 +34,10 @@ class Basic extends React.Component<IProps, IState> {
 						return (
 							<div data-tag key={index}>
 								{email}
-								<span data-tag-handle onClick={() => removeEmail(index)}>
+								<span
+									data-tag-handle
+									onClick={() => removeEmail(index)}
+								>
 									×
 								</span>
 							</div>
