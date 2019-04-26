@@ -138,6 +138,6 @@ export default Basic;
 
 :copyright: :registered: :tm:
 
-# Author :book:
+# Author :neckbeard:
 
 @vivekkravindraa
