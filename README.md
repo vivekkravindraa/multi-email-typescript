@@ -148,4 +148,6 @@ export default Basic;
 
 [Explore the react component that provides us the multi email input field!](https://www.npmjs.com/package/react-multi-email)
 
+[Alternative way to deal with typescript in react applications!](https://www.npmjs.com/package/react-scripts-ts)
+
 Vivek Ravindra :neckbeard: :bowtie: :octocat: :copyright: :registered: :tm: :ind:
