@@ -123,3 +123,5 @@ src/components/Basic.tsx :
 # Reference
 
 	https://facebook.github.io/create-react-app/docs/adding-typescript
+
+	https://www.npmjs.com/package/react-multi-email
