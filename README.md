@@ -7,6 +7,8 @@
 react-multi-email: A simple react component to format multiple email as the user types.
 
 	npm install react-multi-email -S
+	
+# Create React App With TypeScript
 
 To start a new Create React App project with TypeScript, you can run:
 
