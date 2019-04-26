@@ -1,4 +1,4 @@
-/play secret /play tada /play greatjob /play guarantee /play flawless
+play secret /play tada /play greatjob /play guarantee /play flawless
 
 # React Multi Email :e-mail:
 
