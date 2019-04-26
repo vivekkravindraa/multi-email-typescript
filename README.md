@@ -141,4 +141,4 @@ export default Basic;
 
 :copyright: :registered: :tm:
 
-Vivek Ravindra :neckbeard: :bowtie:
+Vivek Ravindra :neckbeard:
