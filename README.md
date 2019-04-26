@@ -30,9 +30,9 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 		"compilerOptions": {
 			"target": "es5",
 			"lib": [
-			"dom",
-			"dom.iterable",
-			"esnext"
+				"dom",
+				"dom.iterable",
+				"esnext"
 			],
 			"allowJs": true,
 			"skipLibCheck": true,
