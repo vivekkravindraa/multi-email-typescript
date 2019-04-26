@@ -22,116 +22,116 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 
 # react-app-env.d.ts
 
-	```javascript
-	/// <reference types="react-scripts" />
-	```
+```javascript
+/// <reference types="react-scripts" />
+```
 
 # tsconfig.json
 
-	```javascript
-	{
-		"compilerOptions": {
-			"target": "es5",
-			"lib": [
-				"dom",
-				"dom.iterable",
-				"esnext"
-			],
-			"allowJs": true,
-			"skipLibCheck": true,
-			"esModuleInterop": true,
-			"allowSyntheticDefaultImports": true,
-			"strict": true,
-			"forceConsistentCasingInFileNames": true,
-			"module": "esnext",
-			"moduleResolution": "node",
-			"resolveJsonModule": true,
-			"isolatedModules": true,
-			"noEmit": true,
-			"jsx": "preserve"
-		},
-		"include": [
-			"src"
-		]
-	}
-	```
+```javascript
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "preserve"
+	},
+	"include": [
+		"src"
+	]
+}
+```
 
 # Implementation
 
 App.js :
 
-	```javascript
-	import React from 'react';
-	import Basic from './components/Basic.tsx';
-	import './App.css';
+```javascript
+import React from 'react';
+import Basic from './components/Basic.tsx';
+import './App.css';
 
-	function App() {
-		return (
-			<div className="App">
-				<Basic />
-			</div>
-		)
-	}
+function App() {
+	return (
+		<div className="App">
+			<Basic />
+		</div>
+	)
+}
 
-	export default App;
-	```
+export default App;
+```
 
 src/components/Basic.tsx :
 
-	```javascript
-	import * as React from 'react';
-	import { ReactMultiEmail, isEmail } from 'react-multi-email';
-	import 'react-multi-email/style.css';
+```javascript
+import * as React from 'react';
+import { ReactMultiEmail, isEmail } from 'react-multi-email';
+import 'react-multi-email/style.css';
 
-	interface IProps { }
-	interface IState {
-		emails: string[];
+interface IProps { }
+interface IState {
+	emails: string[];
+}
+class Basic extends React.Component<IProps, IState> {
+	state = {
+		emails: []
+	};
+
+	render() {
+		const { emails } = this.state;
+
+		return (
+			<>
+				<h3>Email(s)</h3>
+				<ReactMultiEmail
+					placeholder=""
+					emails={emails}
+					onChange={(_emails: string[]) => {
+						this.setState({ emails: _emails });
+					}}
+					validateEmail={email => {
+						return isEmail(email);
+					}}
+					getLabel={(
+						email: string,
+						index: number,
+						removeEmail: (index: number) => void,
+					) => {
+						return (
+							<div data-tag key={index}>
+								{email}
+								<span data-tag-handle onClick={() => removeEmail(index)}>
+									×
+								</span>
+							</div>
+						);
+					}}
+				/>
+			</>
+		);
 	}
-	class Basic extends React.Component<IProps, IState> {
-		state = {
-			emails: []
-		};
+}
 
-		render() {
-			const { emails } = this.state;
-
-			return (
-				<>
-					<h3>Email(s)</h3>
-					<ReactMultiEmail
-						placeholder=""
-						emails={emails}
-						onChange={(_emails: string[]) => {
-							this.setState({ emails: _emails });
-						}}
-						validateEmail={email => {
-							return isEmail(email);
-						}}
-						getLabel={(
-							email: string,
-							index: number,
-							removeEmail: (index: number) => void,
-						) => {
-							return (
-								<div data-tag key={index}>
-									{email}
-									<span data-tag-handle onClick={() => removeEmail(index)}>
-										×
-									</span>
-								</div>
-							);
-						}}
-					/>
-				</>
-			);
-		}
-	}
-
-	export default Basic;
-	```
+export default Basic;
+```
 
 # Reference
 
-	[How to add typescript in react applications?](https://facebook.github.io/create-react-app/docs/adding-typescript)
+[How to add typescript in react applications?](https://facebook.github.io/create-react-app/docs/adding-typescript)
 
-	[React component that provides the multi email input field:](https://www.npmjs.com/package/react-multi-email)
+[React component that provides the multi email input field:](https://www.npmjs.com/package/react-multi-email)
