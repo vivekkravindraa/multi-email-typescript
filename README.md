@@ -7,7 +7,7 @@ React Multi Email Input Field - TypeScript Enabled
 :one: react-multi-email: A simple react component to format multiple email as the user types.
 
 ```javascript
-###### npm install react-multi-email -S
+npm install react-multi-email -S
 ```
 	
 # Create React App With TypeScript :snowflake:
