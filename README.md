@@ -22,10 +22,13 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 
 # react-app-env.d.ts
 
+	```javascript
 	/// <reference types="react-scripts" />
+	```
 
 # tsconfig.json
 
+	```javascript
 	{
 		"compilerOptions": {
 			"target": "es5",
@@ -51,11 +54,13 @@ Next, rename any file to be a TypeScript file (e.g. src/index.js to src/index.ts
 			"src"
 		]
 	}
+	```
 
 # Implementation
 
 App.js :
 
+	```javascript
 	import React from 'react';
 	import Basic from './components/Basic.tsx';
 	import './App.css';
@@ -69,9 +74,11 @@ App.js :
 	}
 
 	export default App;
+	```
 
 src/components/Basic.tsx :
 
+	```javascript
 	import * as React from 'react';
 	import { ReactMultiEmail, isEmail } from 'react-multi-email';
 	import 'react-multi-email/style.css';
@@ -121,9 +128,10 @@ src/components/Basic.tsx :
 	}
 
 	export default Basic;
+	```
 
 # Reference
 
-	https://facebook.github.io/create-react-app/docs/adding-typescript
+	(https://facebook.github.io/create-react-app/docs/adding-typescript)
 
-	https://www.npmjs.com/package/react-multi-email
+	(https://www.npmjs.com/package/react-multi-email)
