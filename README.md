@@ -130,7 +130,7 @@ class Basic extends React.Component<IProps, IState> {
 export default Basic;
 ```
 
-# Reference
+# References :book:
 
 [How to add typescript in react applications?](https://facebook.github.io/create-react-app/docs/adding-typescript)
 
