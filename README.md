@@ -1,4 +1,5 @@
 # React Multi Email :e-mail:
+[![Build Status](https://travis-ci.com/vivekkravindraa/multi-email-typescript.svg?branch=master)](https://travis-ci.com/vivekkravindraa/multi-email-typescript)
 
 React Multi Email Input Field - TypeScript Enabled
 
